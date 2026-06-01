@@ -11,13 +11,30 @@
     <!-- Tu archivo CSS personalizado -->
     <link rel="stylesheet" href="../css/mesadmi.css">
 </head>
-<body>
 
-    <!-- HEADER (Combinación: Azul Navy sobre barra Verde Intenso) -->
-    <header class="barra-verde d-flex justify-content-between align-items-center px-4 shadow">
-        <img src="../imagenes/logo.png" class="logo-admin" alt="Logo Cancha-Facil">
-        <a href="../html/admi.html" class="btn btn-inicio-navy rounded-pill px-4 fw-bold">Inicio</a>
-    </header>
+<body class="bg-dark text-white">
+
+    <nav class="navbar navbar-expand-lg navbar-dark shadow bg-dark">
+        <div class="container">
+            <img src="../img/logo-green.png" style="height: 90px;" alt="">
+            <a class="navbar-brand fw-bold ms-2" href="#" style="font-size: 2rem; color: white;">
+                Cancha<span style="color:  #62ff00;">Facil </span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="admi.html" class="btn btn-inicio-navy rounded-pill fw-bold">Inicio</a>    
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!-- CONTENEDOR PRINCIPAL -->
     <main class="container my-5">

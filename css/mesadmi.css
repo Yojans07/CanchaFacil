@@ -6,9 +6,6 @@
 }
 
 body {
-  /* Fondo sólido e idéntico Azul Navy, sin gradientes ni imágenes */
-  background-color: #03045E;
-  background-image: none;
   min-height: 100vh;
   font-family: sans-serif;
 }
@@ -17,7 +14,7 @@ body {
 .barra-verde {
   background-color: #62FF00; /* Verde Intenso Corporativo */
   height: 80px;
-  border-bottom: 3px solid #03045E;
+  border-bottom: 3px solid #000000;
 }
 
 .logo-admin {
@@ -27,16 +24,20 @@ body {
 
 /* Botón de volver al inicio */
 .btn-inicio-navy {
-  background-color: #03045E;
-  color: #62FF00;
-  border: 2px solid #03045E;
+  background-color: #62FF00;
+  color: #000000;            
+  border: 2px solid #000000;
+  font-weight: bold;
+  width: 160px;
   transition: all 0.3s ease-in-out;
 }
 
 .btn-inicio-navy:hover {
-  background-color: transparent;
-  color: #03045E;
-  border-color: #03045E;
+  background-color: #525151;
+  color: #62FF00;
+  border-color: #62FF00;
+  box-shadow: 0 0 20px rgba(98, 255, 0, 0.5); /* Brillo neón */
+  transform: translateY(-3px);
 }
 
 /* ===== TARJETAS DE RESERVAS ===== */
@@ -55,7 +56,7 @@ body {
 
 .text-bg-verde {
   background-color: #62FF00 !important;
-  color: #03045E !important;
+  color: #000000 !important;
 }
 
 .info {
@@ -72,14 +73,17 @@ body {
 /* Botón de acción */
 .btn-panel-action {
   background-color: #62FF00;
-  color: #03045E;
-  border: 2px solid #62FF00;
+  color: #000000;            
+  border: 2px solid #000000;
+  font-weight: bold;
+  width: 160px;
   transition: all 0.3s ease-in-out;
 }
 
 .btn-panel-action:hover {
-  background-color: #03045E;
+  background-color: #525151;
   color: #62FF00;
   border-color: #62FF00;
-  box-shadow: 0 0 15px rgba(98, 255, 0, 0.4);
+  box-shadow: 0 0 20px rgba(98, 255, 0, 0.5); 
+  transform: translateY(-3px);
 }

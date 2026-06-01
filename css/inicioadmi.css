@@ -8,7 +8,7 @@
 
 body {
   /* Fondo unificado con los otros accesos (imagen + filtro azul corporativo) */
-  background-image: linear-gradient(rgba(3, 4, 94, 0.75), rgba(3, 4, 94, 0.75)), url(../imagenes/fondo-form.jpg);
+  background-image: linear-gradient(rgba(3, 4, 94, 0.75), rgba(3, 4, 94, 0.75)), url(../img/fondo-form.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
