@@ -1,0 +1,73 @@
+/* ===== RESET & BASE ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* Azul Navy oficial como fondo dominante */
+  background-color: #03045E;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+/* ===== HEADER ===== */
+.barra {
+  /* Ahora la barra usa el Verde Intenso corporativo */
+  background-color: #62FF00; 
+  height: 80px;
+  /* Línea inferior en Azul Navy para darle un acabado más limpio */
+  border-bottom: 3px solid #03045E; 
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+}
+
+.brand-title {
+  /* Texto Azul Navy sobre el fondo Verde Intenso */
+  color: #03045E;
+}
+
+/* ===== CONTENEDOR ===== */
+.nav-btns {
+  min-height: calc(100vh - 80px); 
+}
+
+/* ===== BOTONES (Verde Intenso sobre Navy) ===== */
+.btn-custom {
+  background-color: #62FF00; /* Verde Intenso */
+  color: #03045E;            /* Texto Azul Navy */
+  border: 2px solid #03045E;
+  font-weight: bold;
+  width: 220px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Efecto Hover (Invierte a Navy sobre Verde Intenso) */
+.btn-custom:hover {
+  background-color: #03045E;
+  color: #62FF00;
+  border-color: #62FF00;
+  box-shadow: 0 0 20px rgba(98, 255, 0, 0.5); /* Brillo neón */
+  transform: translateY(-3px);
+}
+
+/* ===== BOTÓN DE SALIR ===== */
+.btn-salir {
+  background-color: #e63946; 
+  color: #ffffff;
+  border: 2px solid #03045E;
+  font-weight: bold;
+  width: 220px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-salir:hover {
+  background-color: #b71c1c;
+  color: #ffffff;
+  box-shadow: 0 0 20px rgba(230, 57, 70, 0.4);
+  transform: translateY(-3px);
+}
