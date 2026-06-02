@@ -1,7 +1,3 @@
-body {
-    background-color: #62ff00;
-}
-
 .hero {
     background: #d9d9d9;
     min-height: 90vh;
@@ -27,7 +23,7 @@ body {
 
 .btn-custom:hover{
    background:#03045e; /* color al pasar el mouse */
-   color:white;
+    color:white;
 }
 
 .stats-box {
